@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <StyledHeader>
       <Logo />
-      <Menu />
+      <Menu menuItems={['Home', 'Skills', 'Works', 'Testimony', 'Contact']} />
     </StyledHeader>
   );
 };
