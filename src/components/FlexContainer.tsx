@@ -13,4 +13,5 @@ export const FlexContainer = styled.div<FlexContainerPropsType>`
   justify-content: ${(props) => props.justifyContent ?? "flex-start"};
   align-items: ${(props) => props.alignItems ?? "stretch"};
   flex-wrap: ${(props) => props.wrap ?? "nowrap"};
+  height: 100%;
 `;
